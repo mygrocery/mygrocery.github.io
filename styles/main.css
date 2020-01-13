@@ -18,9 +18,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   background: linear-gradient(270deg, #f7395f 0%, #fe702e 100%);
 }
 
+#bgvideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 /* Header Section */
 .aa-header {
-  background-image: url("../images/home-image.jpg");
   position: fixed;
   background-size: cover;
   background-repeat: repeat;
